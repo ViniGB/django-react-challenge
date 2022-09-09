@@ -1,0 +1,128 @@
+form.add-comm-form-section > * {
+  margin-bottom: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 99%;
+}
+
+form div:last-child {
+  margin-bottom: 0;
+}
+
+.add-comm-form-section {
+  align-items: flex-start;
+  background-color: rgb(235, 235, 235, 0.2);
+  color: rgb(6, 6, 53);
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  padding: 40px;
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.form-infos {
+  border-radius: 6px;
+  padding: 0.5%;
+  width: 99%;
+}
+
+#location {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 99%;
+}
+
+#location-name {
+  margin-bottom: 10px;
+  margin: auto;
+}
+
+#latitude {
+  margin-bottom: 5px;
+}
+
+#date {
+  display: flex;
+  flex-direction: column;
+  width: 99%;
+}
+
+.form-input {
+  border: 1px solid rgb(231, 231, 231);
+  padding: 10px;
+}
+
+.form-button-input {
+  background-color: rgb(53, 53, 212);
+  border: 1px solid rgb(0, 0, 0);
+  color: white;
+  font-weight: 900;
+  padding: 8px;
+}
+
+.form-button-input:hover {
+  cursor: pointer;
+}
+
+.form-button-input-disabled {
+  background-color: rgb(148, 148, 253);
+  border: 1px solid rgb(0, 0, 0);
+  color: white;
+  font-weight: 900;
+  padding: 8px;
+}
+
+.cpf-filter-section {
+  display: flex;
+  align-items: center;
+}
+
+.cpf-input-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.form-filter {
+  width: 100%;
+}
+
+.cpf-button-section {
+  display: flex;
+}
+
+.filter-button {
+  background-color: rgb(0, 148, 25);
+  border: 1px solid rgb(0, 0, 0);
+  color: white;
+  margin-right: 10px;
+}
+
+.filter-button:hover {
+  cursor: pointer;
+}
+ 
+.filter-button-disabled {
+  margin-right: 10px;
+  background-color: rgb(79, 241, 106);
+  border: 1px solid rgb(0, 0, 0);
+  color: white;
+}
+
+.clear-filter-button {
+  background-color: rgb(167, 101, 2);
+  border: 1px solid rgb(0, 0, 0);
+  color: white;
+}
+
+.clear-filter-button:hover {
+  background-color: rgb(250, 180, 75);
+  cursor: pointer;
+}
